@@ -1,0 +1,149 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ccc;
+    margin: 0;
+    
+}
+
+.hero
+{   
+
+    background-image:url(img/bg-3.jpg);
+    height: 530px;
+    background-position: right center;
+    background-size: cover;
+    border: 1px solid transparent;
+    
+}
+
+
+.hero nav ul
+{
+    text-align: right;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+
+.hero nav ul li
+{
+    display: inline-block;
+    list-style: none;
+    background-color: rgba(51, 51, 51, 0.552);
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+.hero nav ul li:hover
+{
+    transition: .7s;
+    background-color: rgba(28, 33, 38, 0.805);
+  
+}
+
+.hero nav ul li a
+{
+    padding: 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+
+#content-header
+{
+    text-align: center;
+    color: rgb(239, 239, 239);
+    margin-top: 150px;
+}
+
+#content-header h1
+{
+
+    text-transform: uppercase;
+    font-size: 36px;
+    text-shadow:  3px 3px 2px #333;
+
+}
+
+#content-header p
+{
+    background-color: rgba(0, 0, 0, 0.8);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 3px solid brown;
+}
+
+main
+{
+    width: 80%;
+    margin: auto;
+}
+
+
+.content-section
+{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    overflow: auto;
+
+}
+
+.card
+{
+    width: 31%;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 2%;
+    
+}
+
+
+.car1
+{
+    margin-right: 3%;
+}
+
+
+.card img
+{
+    width: 100%;
+    display: block;
+   
+}
+
+.card p 
+{
+    background-color: #333;
+    color: bisque;
+    padding: 15px;
+    margin: 0;
+}
+.content2
+{
+    margin-bottom: 15px;
+}
+
+.content2 h2
+{
+    background: rgba(165, 42, 42, 0.64);
+    color: rgba(0, 0, 0, 0.786);
+    padding: 15px;
+    border-radius: 3px;
+}
+
+footer
+{
+    background-color: rgba(0, 0, 0, 0.633);
+    text-align: center;
+    color: antiquewhite;
+    padding: 15px;
+}
+
